@@ -42,12 +42,13 @@
                         <a class="text-reset fw-bolder ps-3" href="#" role="button" id="photo{photo.pk}" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa fa-ellipsis-v"></i>
                         </a>
-
+                        {% if user == request.user %}
                         <ul class="dropdown-menu rounded-0" aria-labelledby="photo{photo.pk}">
                             <li><a class="dropdown-item" href="{{photo.image_path.url}}" target="_blank" download><i class="fa fa-download text-primary"></i> Загрузить Изображение</a></li>
                             <li><a class="dropdown-item trash_image" data-url="{% url 'trash-upload' photo.pk %}" href="javascript:void(0)"><i class="fa fa-trash text-danger"></i> Удалить в корзину</a></li>
-                            <li><a class="dropdown-item" href="#" target="_blank" download><i class="fa fa-pencil" aria-hidden="true"></i> Редактировать</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-pencil" aria-hidden="true"></i> Редактировать</a></li>
                         </ul>
+                        {% endif %}
                     </div>
                 </div>
                 <a href="javascript:void(0)" data-img-url="{{photo.image_path.url}}" class="view_image">

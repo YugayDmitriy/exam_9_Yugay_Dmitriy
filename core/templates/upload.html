@@ -13,10 +13,6 @@
             <input class="form-control" type="file" name="image_path" accept="images/*" id="image" onchange="display_image(this)">
         </div>
         <div class="mb-3">
-            <label for="image" class="form-label">Описание фотографии</label>
-            <input class="form-control" type="text" onchange="display_image(this)">
-        </div>
-        <div class="mb-3">
             <img src="{% static 'assets/default/img/no-image-available.png' %}" alt="" class="img-thumbnail avatar" id="cimg">
         </div>
     </form>

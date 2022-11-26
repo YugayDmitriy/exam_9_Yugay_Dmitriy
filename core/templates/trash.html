@@ -41,11 +41,12 @@
                         <a class="text-reset fw-bolder ps-3" href="#" role="button" id="photo{photo.pk}" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa fa-ellipsis-v"></i>
                         </a>
-
+                        {% if user == request.user %}
                         <ul class="dropdown-menu rounded-0" aria-labelledby="photo{photo.pk}">
                             <li><a class="dropdown-item restore_image" data-url="{% url 'restore-upload' photo.pk %}" href="javascript:void(0)"><i class="fa fa-trash-restore text-muted"></i> Восстановить</a></li>
                             <li><a class="dropdown-item delete_image" data-url="{% url 'delete-upload' photo.pk %}" href="javascript:void(0)"><i class="fa fa-trash text-danger"></i> Удалить</a></li>
                         </ul>
+                        {% endif %}
                     </div>
                 </div>
                 <a href="javascript:void(0)" data-img-url="{{photo.image_path.url}}" class="view_image">

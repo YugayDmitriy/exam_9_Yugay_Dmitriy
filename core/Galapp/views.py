@@ -35,7 +35,6 @@ def home(request):
     return render(request, 'home.html', context)
 
 
-
 @login_required
 def save_upload(request):
     resp = {'status': 'failed', 'msg': ''}
@@ -54,6 +53,7 @@ def save_upload(request):
                     resp['msg'] += str('<br />')
                 resp['msg'] += str(f"[{field.name}] {error}.")
     return HttpResponse(json.dumps(resp), content_type="application/json")
+
 
 
 @login_required

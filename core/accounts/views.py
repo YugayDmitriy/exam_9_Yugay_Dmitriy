@@ -119,7 +119,6 @@ def login_user(request):
     return HttpResponse(json.dumps(resp), content_type='application/json')
 
 
-
 def logout_user(request):
     logout(request)
     return redirect('login-page')
@@ -131,4 +130,5 @@ def profile(request):
     context['page'] = 'profile'
     context['page_title'] = "Profile"
     return render(request, 'profile.html', context)
+
 
