@@ -1,103 +1,103 @@
 [
-{
-  "model": "Galapp.gallery",
-  "pk": 1,
-  "fields": {
-    "user": 1,
-    "image_path": "photo/Дизайн_без_названия_1.png",
-    "thumbnail_path": "thumbnails/Котова_и_Серебряков_1.png",
-    "title": "Природа",
-    "delete_flag": 0,
-    "date_added": "2022-11-26T08:50:23Z",
-    "date_created": "2022-11-26T08:51:13.770Z"
-  }
-},
-{
-  "model": "Galapp.gallery",
-  "pk": 2,
-  "fields": {
-    "user": 1,
-    "image_path": "photo/Салон_Красоты_Величие_природы.png",
-    "thumbnail_path": "thumbnails/Салон_Красоты_Величие_природы.png",
-    "title": "",
-    "delete_flag": 0,
-    "date_added": "2022-11-26T09:57:22.791Z",
-    "date_created": "2022-11-26T09:57:22.878Z"
-  }
-},
-{
-  "model": "Galapp.gallery",
-  "pk": 6,
-  "fields": {
-    "user": 5,
-    "image_path": "photo/sivo-2.jpg",
-    "thumbnail_path": "thumbnails/sivo-2.jpg",
-    "title": "Природа",
-    "delete_flag": 0,
-    "date_added": "2022-11-26T12:05:48Z",
-    "date_created": "2022-11-26T12:11:31.673Z"
-  }
-},
-{
-  "model": "Galapp.gallery",
-  "pk": 7,
-  "fields": {
-    "user": 5,
-    "image_path": "photo/kte-2.jpg",
-    "thumbnail_path": "thumbnails/kte-2.jpg",
-    "title": "Кот",
-    "delete_flag": 0,
-    "date_added": "2022-11-26T12:11:33Z",
-    "date_created": "2022-11-26T12:11:55.867Z"
-  }
-},
-{
-  "model": "Galapp.gallery",
-  "pk": 8,
-  "fields": {
-    "user": 5,
-    "image_path": "photo/425e7.jpg",
-    "thumbnail_path": "thumbnails/425e7.jpg",
-    "title": "Бабочка",
-    "delete_flag": 0,
-    "date_added": "2022-11-26T12:12:08Z",
-    "date_created": "2022-11-26T12:12:35.269Z"
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$390000$jeL0NMQoPMP25MhYYTmjJs$2ziacpyfTPQvMPvDbAqdWxqPPt/eU0aYKV52OO+EE14=",
-    "last_login": "2022-11-26T12:15:38.941Z",
-    "is_superuser": true,
-    "username": "root",
-    "first_name": "Dimaa",
-    "last_name": "Yugay",
-    "email": "root@gmail.com",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2022-11-26T06:57:54.812Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 5,
-  "fields": {
-    "password": "pbkdf2_sha256$390000$EJqkKhEJYk3milNXezuWB8$QAlAINqOtQwPRydfbT91Z4+24e1mbUZEV8lm+qwb6gw=",
-    "last_login": "2022-11-26T12:16:47.100Z",
-    "is_superuser": false,
-    "username": "manager",
-    "first_name": "manager",
-    "last_name": "manager",
-    "email": "manager@gmail.com",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2022-11-26T12:03:35.494Z",
-    "groups": [],
-    "user_permissions": []
-  }
-}
-]
+    {
+      "model": "Galapp.gallery",
+      "pk": 1,
+      "fields": {
+        "user": 1,
+        "image_path": "photo/Р”РёР·Р°Р№РЅ_Р±РµР·_РЅР°Р·РІР°РЅРёСЏ_1.png",
+        "thumbnail_path": "thumbnails/РљРѕС‚РѕРІР°_Рё_РЎРµСЂРµР±СЂСЏРєРѕРІ_1.png",
+        "title": "РџСЂРёСЂРѕРґР°",
+        "delete_flag": 0,
+        "date_added": "2022-11-26T08:50:23Z",
+        "date_created": "2022-11-26T08:51:13.770Z"
+      }
+    },
+    {
+      "model": "Galapp.gallery",
+      "pk": 2,
+      "fields": {
+        "user": 1,
+        "image_path": "photo/РЎР°Р»РѕРЅ_РљСЂР°СЃРѕС‚С‹_Р’РµР»РёС‡РёРµ_РїСЂРёСЂРѕРґС‹.png",
+        "thumbnail_path": "thumbnails/РЎР°Р»РѕРЅ_РљСЂР°СЃРѕС‚С‹_Р’РµР»РёС‡РёРµ_РїСЂРёСЂРѕРґС‹.png",
+        "title": "",
+        "delete_flag": 0,
+        "date_added": "2022-11-26T09:57:22.791Z",
+        "date_created": "2022-11-26T09:57:22.878Z"
+      }
+    },
+    {
+      "model": "Galapp.gallery",
+      "pk": 6,
+      "fields": {
+        "user": 5,
+        "image_path": "photo/sivo-2.jpg",
+        "thumbnail_path": "thumbnails/sivo-2.jpg",
+        "title": "РџСЂРёСЂРѕРґР°",
+        "delete_flag": 0,
+        "date_added": "2022-11-26T12:05:48Z",
+        "date_created": "2022-11-26T12:11:31.673Z"
+      }
+    },
+    {
+      "model": "Galapp.gallery",
+      "pk": 7,
+      "fields": {
+        "user": 5,
+        "image_path": "photo/kte-2.jpg",
+        "thumbnail_path": "thumbnails/kte-2.jpg",
+        "title": "РљРѕС‚",
+        "delete_flag": 0,
+        "date_added": "2022-11-26T12:11:33Z",
+        "date_created": "2022-11-26T12:11:55.867Z"
+      }
+    },
+    {
+      "model": "Galapp.gallery",
+      "pk": 8,
+      "fields": {
+        "user": 5,
+        "image_path": "photo/425e7.jpg",
+        "thumbnail_path": "thumbnails/425e7.jpg",
+        "title": "Р‘Р°Р±РѕС‡РєР°",
+        "delete_flag": 0,
+        "date_added": "2022-11-26T12:12:08Z",
+        "date_created": "2022-11-26T12:12:35.269Z"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 1,
+      "fields": {
+        "password": "pbkdf2_sha256$390000$jeL0NMQoPMP25MhYYTmjJs$2ziacpyfTPQvMPvDbAqdWxqPPt/eU0aYKV52OO+EE14=",
+        "last_login": "2022-11-26T12:15:38.941Z",
+        "is_superuser": true,
+        "username": "root",
+        "first_name": "Dimaa",
+        "last_name": "Yugay",
+        "email": "root@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-11-26T06:57:54.812Z",
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 5,
+      "fields": {
+        "password": "pbkdf2_sha256$390000$EJqkKhEJYk3milNXezuWB8$QAlAINqOtQwPRydfbT91Z4+24e1mbUZEV8lm+qwb6gw=",
+        "last_login": "2022-11-26T12:16:47.100Z",
+        "is_superuser": false,
+        "username": "manager",
+        "first_name": "manager",
+        "last_name": "manager",
+        "email": "manager@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-11-26T12:03:35.494Z",
+        "groups": [],
+        "user_permissions": []
+      }
+    }
+    ]
